@@ -1,0 +1,106 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-image: url(./pictures/DDD1.webp);
+    background-size: 1550px 1000px;
+    color: #fff;
+}
+
+button{
+    background-color: transparent;
+    padding: 20px;
+    backdrop-filter: blur(8px);
+    border: none;
+    border-radius: 25px;
+}
+
+.box{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+button a{
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(0, 255, 255);
+    align-content: center;
+}
+
+.button button{
+    color: cornflowerblue;
+}
+
+a:hover{
+    color: rgba(0, 255, 255, 0.595);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.href{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+}
+
+.hi{
+    font-size: 40px;
+    color: white;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-top: 80px;
+   
+    justify-content: center;
+    height: 400px;
+}
+
+.button button{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.q{
+    display: flex;
+    gap: 20px;
+}
+
+.a{
+    width: 100%;
+     background-color: #211f1f67;
+    backdrop-filter: blur(8px);
+    width: 750px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.button button{
+    border-radius: 16px black;
+    border: 1px solid;
+    background-color: #e4d9d91b;
+    cursor: pointer;
+}
